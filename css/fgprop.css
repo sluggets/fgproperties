@@ -63,17 +63,45 @@ body
 {
   display: inline-block;
   margin-right: 1.5em;
+  color: grey;
 }
 
-.fa-twitter
+.flat a
 {
-
+  color: grey;
 }
 
-/*.footer-margin
+.footer-margin p, .footer-margin a
 {
-  margin-top: 9px;
-}*/
+  color: grey;
+}
+
+.social-circle
+{
+  width:30px;
+  height: 30px;
+  background: grey;
+  border-radius: 30px;
+  float: left;
+  line-height: 30px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.social
+{
+  vertical-align: middle;
+}
+
+.fa
+{
+  color: #e9efa9;
+}
+
+.footer-margin
+{
+  margin-top: 5px;
+}
 
 /*#logo-header
 {
