@@ -9,10 +9,33 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/fgprop.css" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
+    <script src="js/dropdown.js"></script>
     <script src="js/fgprop.js"></script>
   </head>
   <body>
-    <div class="container-fluid">
-      <header>
-       <h1>Testing Out Font</h1>
-      </header>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">
+            <img id="logo" class="img-responsive" src="img/fgp-logo-trans-300.png" alt="brand logo">
+          </a>
+        </div>
+        <ul class="nav nav-pills">
+          <li role="presentation"><h1>First Generation Properties</h1></li>
+          <li role="presentation"><a class="nav-margin" href="forms/rental-application.pdf" download="application.pdf">Rental Application</a></li>
+          <li role="presentation" class="dropdown">
+            <a class="nav-margin dropdown-toggle" id="dLabel" data-target="#" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              Communities<span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Annawan</a></li>
+              <li><a href="#">Cambridge</a></li>
+              <li><a href="#">Geneseo</a></li>
+              <li><a href="#">LeClaire</a></li>
+              <li><a href="#">Moline</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+        
