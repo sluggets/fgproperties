@@ -6,13 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>First Generation Properties</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!--<link href="css/font-awesome.min.css" rel="stylesheet">-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
     <link href="css/fgprop.css" rel="stylesheet">
+    <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/dropdown.js"></script>
     <script src="js/fgprop.js"></script>
   </head>
   <body>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
