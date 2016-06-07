@@ -13,13 +13,30 @@
 
 body
 {
-  font-family: SourceSerifPro;
+  font-family: Muli;
 }
 
 .navbar
 {
-  background: #d6e05b ;
+  background: #e9efa9;
+  box-shadow: 2px 2px 2px #bfbfbf;
+  /*background: #d6e05b;*/
   /*background: #ccc;*/
+}
+
+.footer
+{
+  display: inline-block;
+  background: #e9efa9;
+  box-shadow: 0px -2px 2px #bfbfbf;
+  /*position: absolute;*/
+  /*bottom: 0;*/
+  width: 100%;
+}
+
+.fb-share-button
+{
+  display: inline;
 }
 
 .navbar a
@@ -41,6 +58,23 @@ body
 {
   margin-top: 1.5em;
 }
+
+.flat li
+{
+  display: inline-block;
+  margin-right: 1.5em;
+}
+
+.fa-twitter
+{
+
+}
+
+/*.footer-margin
+{
+  margin-top: 9px;
+}*/
+
 /*#logo-header
 {
   font-size: 1.5em;
