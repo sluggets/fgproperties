@@ -103,6 +103,15 @@ body
   margin-top: 5px;
 }
 
+#content
+{
+  margin-bottom: 800px;
+}
+
+#logo-img
+{
+  text-align: center;
+}
 /*#logo-header
 {
   font-size: 1.5em;
