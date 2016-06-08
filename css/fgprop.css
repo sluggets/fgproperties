@@ -71,9 +71,10 @@ body
   color: grey;
 }
 
-.footer-margin p, .footer-margin a
+.footer-margin p, .footer-margin a, address
 {
   color: grey;
+  margin-bottom: 5px;
 }
 
 .social-circle
@@ -109,6 +110,16 @@ body
 }
 
 #logo-img
+{
+  text-align: center;
+}
+
+#clear-footer
+{
+  margin-bottom: 10em;
+}
+
+.town-header h2
 {
   text-align: center;
 }
