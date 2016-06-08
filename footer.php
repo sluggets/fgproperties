@@ -10,6 +10,7 @@
           </ul>
           <address id="address">First Generation Properties, LLC P.O. Box 493 Geneseo, IL 61254</address>
           <p id="email"><a href="mailto:firstgenprop@gmail.com">firstgenprop@gmail.com</a></p>
+          <p id="phone">(309) 373-0576</p>
         </div>
       </footer>
     </div>
