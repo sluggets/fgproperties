@@ -31,11 +31,11 @@
               Communities<span class="caret"></span>
             </a>
             <ul class="dropdown-menu">
-              <li><a href="#">Annawan</a></li>
-              <li><a href="#">Cambridge</a></li>
-              <li><a href="#">Geneseo</a></li>
-              <li><a href="#">LeClaire</a></li>
-              <li><a href="#">Moline</a></li>
+              <li><a href="http://localhost:8000/#annawan">Annawan</a></li>
+              <li><a href="http://localhost:8000/#cambridge">Cambridge</a></li>
+              <li><a href="http://localhost:8000/#geneseo">Geneseo</a></li>
+              <li><a href="http://localhost:8000/#leclaire">LeClaire</a></li>
+              <li><a href="http://localhost:8000/#moline">Moline</a></li>
             </ul>
           </li>
         </ul>
