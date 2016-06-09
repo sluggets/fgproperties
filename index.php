@@ -43,7 +43,13 @@
                     <div class="caption">
                       <h3>3 Plex<address> 555 S. Need Street Cambridge, IL</address></h3>
                       <p>Three units: one, two or three bedrooms with one bath. Click through for more details.</p>
-                      <p><a href="#" class="btn btn-default" role="button">More information</a>
+                      <form action="details.php" method="post">
+                       <input type="hidden" name="property" value="cambridge-1"/> 
+                       <input type="hidden"
+                              name="type"
+                              value="Apartment"/>
+                       <input href="#" class="btn btn-default" name="submit" type="submit" value="More information" role="button"/>
+                      </form>
                     </div>
                   </div>
                 </div>
@@ -62,7 +68,13 @@
                     <div class="caption">
                       <h3>3 Plex<address> 612-616 S. Spring Street Geneseo, IL</address></h3>
                       <p>Three units: two or three bedrooms with one bath. Click through for more details.</p>
-                      <p><a href="#" class="btn btn-default" role="button">More information</a>
+                      <form action="details.php" method="post">
+                       <input type="hidden" name="property" value="geneseo-1"/> 
+                       <input type="hidden"
+                              name="type"
+                              value="Apartment"/>
+                       <input href="#" class="btn btn-default" name="submit" type="submit" value="More information" role="button"/>
+                      </form>
                     </div>
                   </div>
                 </div>
@@ -72,7 +84,13 @@
                     <div class="caption">
                       <h3>Single Family<address> 823 S. Spring Street Geneseo, IL</address></h3>
                       <p>Single family home: two bedrooms and two baths. Click through for more details.</p>
-                      <p><a href="#" class="btn btn-default" role="button">More information</a>
+                      <form action="details.php" method="post">
+                       <input type="hidden" name="property" value="geneseo-2"/> 
+                       <input type="hidden"
+                              name="type"
+                              value="Single Family"/>
+                       <input href="#" class="btn btn-default" name="submit" type="submit" value="More information" role="button"/>
+                      </form>
                     </div>
                   </div>
                 </div>
@@ -91,7 +109,13 @@
                     <div class="caption">
                       <h3>Single Family<address> 1478 Kaylann Avenue LeClaire, IA</address></h3>
                       <p>Single family home: three to four bedrooms, and 1&#189 baths.</p>
-                      <p><a href="#" class="btn btn-default" role="button">More information</a>
+                      <form action="details.php" method="post">
+                       <input type="hidden" name="property" value="leclaire-1"/> 
+                       <input type="hidden"
+                              name="type"
+                              value="Single Family"/>
+                       <input href="#" class="btn btn-default" name="submit" type="submit" value="More information" role="button"/>
+                      </form>
                     </div>
                   </div>
                 </div>
@@ -110,7 +134,13 @@
                     <div class="caption">
                       <h3>4 Plex<address> 2824 44th Street Moline, IL</address></h3>
                       <p>Fourunits: one to four bedrooms with one bath. Click through for more details.</p>
-                      <p><a href="#" class="btn btn-default" role="button">More information</a>
+                      <form action="details.php" method="post">
+                       <input type="hidden" name="property" value="moline-1"/>
+                       <input type="hidden"
+                              name="type"
+                              value="Apartment"/>
+                       <input href="#" class="btn btn-default" name="submit" type="submit" value="More information" role="button"/>
+                      </form>
                     </div>
                   </div>
                 </div>
@@ -120,6 +150,13 @@
                     <div class="caption">
                       <h3>Single Family<address> 116 18th Ave Moline, IL</address></h3>
                       <p>Single family home: two bedrooms and one bath. Click through for more details.</p>
+                      <form action="details.php" method="post">
+                       <input type="hidden" name="property" value="moline-2"/> 
+                       <input type="hidden"
+                              name="type"
+                              value="Single Family"/>
+                       <input href="#" class="btn btn-default" name="submit" type="submit" value="More information" role="button"/>
+                      </form>
                       <p><a href="#" class="btn btn-default" role="button">More information</a>
                     </div>
                   </div>
@@ -130,7 +167,13 @@
                     <div class="caption">
                       <h3>Single Family<address> 123 18th Avenue Moline, IL</address></h3>
                       <p>Single family home: three bedrooms and one bath. Click through for more details.</p>
-                      <p><a href="#" class="btn btn-default" role="button">More information</a>
+                      <form action="details.php" method="post">
+                       <input type="hidden" name="property" value="moline-3"/> 
+                       <input type="hidden"
+                              name="type"
+                              value="Single Family"/>
+                       <input href="#" class="btn btn-default" name="submit" type="submit" value="More information" role="button"/>
+                      </form>
                     </div>
                   </div>
                 </div>
