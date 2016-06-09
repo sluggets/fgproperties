@@ -20,7 +20,13 @@
                     <div class="caption">
                       <h3>4 Plex<address> 203 N. State Street Annawan, IL</address></h3>
                       <p>Four units: one or two bedrooms with one bath. Click through for more details.</p>
-                      <p><a href="#" class="btn btn-default" role="button">More information</a>
+                      <form action="details.php" method="post">
+                       <input type="hidden" name="property" value="annawan-1"/> 
+                       <input type="hidden"
+                              name="type"
+                              value="Apartment"/>
+                       <input href="#" class="btn btn-default" name="submit" type="submit" value="More information" role="button"/>
+                      </form>
                     </div>
                   </div>
                 </div>
