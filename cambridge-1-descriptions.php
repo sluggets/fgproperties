@@ -27,4 +27,6 @@
     Phasellus finibus eu felis luctus molestie.
     Nulla venenatis ante placerat ligula vestibulum vehicula.
     Suspendisse vel lorem quis tortor elementum pulvinar.';
+
+  $listing_array = [$cambridge1_1, $cambridge1_2, $cambridge1_3];
 ?>
