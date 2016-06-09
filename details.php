@@ -1,3 +1,6 @@
+<?php include 'header.php'; ?>
+  <div id="clear-footer">
+  <div class="container-fluid">
 <?php
   //echo 'Hello ' . $_POST["property"];
   $property = $_POST["property"];
@@ -25,14 +28,29 @@
 
   include $property . '-descriptions.php';
 
-  var_dump($listing_array[0]->address);
+  $listing_len = count($listing_array);
 
+  for ($i = 0; $i < $listing_len; $i++)
+  {
 ?>
-
-<?php include 'header.php' ?>
-<p><?php echo $listing_array[0]->description ?></p>
-<p><?php if ($extra) echo $extra ?></p>
-
-
+    <div id="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2 class="panel-title">
+              <?php echo $listing_array[$i]->address; ?>
+              <span id="apt">APT <?php echo $listing_array[$i]->aptNumber; ?></span>
+            </h2>
+          </div>
+          <div class="panel-body">
+          </div>
+        </div>
+      </div>
+    </div>
+<?php
+  }
+?>
+  </div>
+  </div>
 
 <?php include 'footer.php' ?>
