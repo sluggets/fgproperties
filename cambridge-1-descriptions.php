@@ -1,5 +1,5 @@
 <?php
-  $address = '555 S. Need Street, Cambridge, IL 61238'
+  $address = '555 S. Need Street, Cambridge, IL 61238';
 
   $cambridge1_1 = new Listing;
   $cambridge1_1->add_item($address, '2', '2', 'Basement', '1', 'img/cambridge-1/unit-1/');
