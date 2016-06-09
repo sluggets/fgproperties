@@ -30,7 +30,7 @@
 ?>
 
 <?php include 'header.php' ?>
-<p><?php echo $description?></p>
+<p><?php echo $listing_array[0]->description ?></p>
 <p><?php if ($extra) echo $extra ?></p>
 
 
