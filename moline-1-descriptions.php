@@ -33,7 +33,7 @@
     Suspendisse vel lorem quis tortor elementum pulvinar.';
 
   $moline1_4 = new Listing;
-  $moline1_4->new_item($address, '1-2', '1', 0, '4', 'img/moline-1/unit-4/');
+  $moline1_4->add_item($address, '1-2', '1', 0, '4', 'img/moline-1/unit-4/');
   $moline1_4->description = 'This is the description for Apt.#4 in Moline.
     It has one to two bedrooms and one bath.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
