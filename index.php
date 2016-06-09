@@ -157,7 +157,6 @@
                               value="Single Family"/>
                        <input href="#" class="btn btn-default" name="submit" type="submit" value="More information" role="button"/>
                       </form>
-                      <p><a href="#" class="btn btn-default" role="button">More information</a>
                     </div>
                   </div>
                 </div>
