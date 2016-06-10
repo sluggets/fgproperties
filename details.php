@@ -39,7 +39,7 @@
           <div class="panel-heading">
             <h2 class="panel-title">
               <?php echo $listing_array[$i]->address; ?>
-              <span id="apt">APT <?php echo $listing_array[$i]->aptNumber; ?></span>
+              <span id="apt"><?php if ($listing_array[$i]->aptNumber){echo 'APT' . $listing_array[$i]->aptNumber;} ?></span>
             </h2>
           </div>
           <div class="panel-body">
