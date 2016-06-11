@@ -10,6 +10,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
     <link href="css/fgprop.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
     <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/dropdown.js"></script>

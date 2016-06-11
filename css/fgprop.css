@@ -140,6 +140,10 @@ body
   margin-right: 1.25em;
 }
 
+.description
+{
+  margin-top: 2em;
+}
 /*#apt
 {
   float: right;

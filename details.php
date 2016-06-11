@@ -39,6 +39,7 @@
     $extra = $listing_array[$i]->extra;
     $aptNum = $listing_array[$i]->aptNumber;
     $path = $listing_array[$i]->photoPath;
+    $description = $listing_array[$i]->description;
 ?>
     <div id="row">
       <div class="col-md-6 col-md-offset-3">
@@ -63,6 +64,41 @@
             </h4>
           </div>
           <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-12 col-md-4">
+                <a href="img/placeholder/01w800.jpg" class="thumbnail" data-lightbox="slide">
+                  <img src="img/placeholder/th01.jpg"/>
+                </a>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <a href="img/placeholder/02w800.jpg" class="thumbnail" data-lightbox="slide">
+                  <img src="img/placeholder/th02.jpg"/>
+                </a>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <a href="img/placeholder/03w800.jpg" class="thumbnail" data-lightbox="slide">
+                  <img src="img/placeholder/th03.jpg"/>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-md-4">
+                <a href="img/placeholder/04w800.jpg" class="thumbnail" data-lightbox="slide">
+                  <img src="img/placeholder/th04.jpg"/>
+                </a>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <a href="img/placeholder/05w800.jpg" class="thumbnail" data-lightbox="slide">
+                  <img src="img/placeholder/th05.jpg"/>
+                </a>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <a href="img/placeholder/06w800.jpg" class="thumbnail" data-lightbox="slide">
+                  <img src="img/placeholder/th06.jpg"/>
+                </a>
+              </div>
+            </div>
+            <p class="description"> <?php echo $description; ?> </p>
           </div>
           <div class="panel-footer">
             <h4>Map goes here</h4>
@@ -73,7 +109,7 @@
 <?php
   }
 ?>
-  </div>
-  </div>
+  <!--</div>
+  </div>-->
 
 <?php include 'footer.php' ?>
