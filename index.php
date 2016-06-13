@@ -105,7 +105,7 @@
               <div id="row">
                 <div class="col-md-2 col-md-offset-5">
                   <div class="thumbnail">
-                    <img src="img/ph05.jpg" alt="House at 1478 Kaylann Avenue">
+                    <img src="img/ph05.jpg" alt="House at 1478 Kaylann Drive">
                     <div class="caption">
                       <h3>Single Family<address> 1478 Kaylann Avenue LeClaire, IA</address></h3>
                       <p>Single family home: three to four bedrooms, and 1&#189 baths.</p>
