@@ -15,5 +15,6 @@
       </footer>
     </div>
     <script src="js/lightbox.js"></script>
+    <script src="js/fgprop.js"></script>
   </body>
 </html>
