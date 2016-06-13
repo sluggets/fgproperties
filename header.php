@@ -11,10 +11,11 @@
     <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
     <link href="css/fgprop.css" rel="stylesheet">
     <link href="css/lightbox.css" rel="stylesheet">
+    <link href="css/leaflet.css" rel="stylesheet">
     <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/dropdown.js"></script>
-    <script src="js/fgprop.js"></script>
+    <script src="js/leaflet.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-default">
