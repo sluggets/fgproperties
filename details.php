@@ -23,6 +23,7 @@
       $this->extra = $ex;
       $this->aptNumber = $apt;
       $this->photoPath = $path;
+      $this->ords = $ord;
     }
   }
 
@@ -30,7 +31,30 @@
 
   
   $listing_len = count($listing_array);
+  $lat = $listing_array[0]->ords[0];
+  $lon = $listing_array[0]->ords[1];
+?>
+    <script type="text/javascript">
+      var lat = "<?php echo $lat ?>";
+      var lon = "<?php echo $lon ?>";
+      console.log("lat " + lat + "lon " + lon);
+    </script>
+    <div id="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-default">
+          <!--<div class="panel-heading">-->
+              <!--<span id="lat" class="latlon">?php echo $lat; ?></span><span id="lon" class="latlon">?php echo $lon; ?></span>-->
+            <!--<h2 class="panel-title">Map Location</h2>
+          </div>-->
+          <div class="panel-body">
+            <div id="mapid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+<?php
   for ($i = 0; $i < $listing_len; $i++)
   {
     $address = $listing_array[$i]->address;
@@ -46,7 +70,7 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h2 class="panel-title">
-              <?php echo $address; ?>
+              <?php echo $address; ?> 
               <span id="apt"><?php if ($aptNum){echo 'APT ' . $aptNum;} ?></span>
             </h2>
           </div>
@@ -100,15 +124,19 @@
             </div>
             <p class="description"> <?php echo $description; ?> </p>
           </div>
-          <div class="panel-footer">
-            <h4>Map goes here</h4>
-          </div>
+          <!--<div class="panel-footer">
+            <div id="mapid">
+              <h4>Map goes here</h4>
+            </div>
+          </div>-->
         </div>
       </div>
     </div>
 <?php
   }
 ?>
+          
+         
   <!--</div>
   </div>-->
 
