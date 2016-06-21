@@ -41,7 +41,7 @@
                   <div class="thumbnail">
                     <img src="img/ph02-2.jpg" class="img-responsive" alt="House at 555 S. Need Street">
                     <div class="caption">
-                      <h3>3 Plex<address> 555 S. Need Street Cambridge, IL</address></h3>
+                      <h3>3 Plex<address> 308 E. Court Street Cambridge, IL</address></h3>
                       <p>Three units: one, two or three bedrooms with one bath. Click through for more details.</p>
                       <form action="details.php" method="post">
                        <input type="hidden" name="property" value="cambridge-1"/> 

@@ -1,6 +1,6 @@
 <?php
-  $address = '555 S. Need Street, Cambridge, IL 61238';
-  $cords = [41.2972, -90.1933];
+  $address = '308 E Court St, Cambridge, IL 61238';
+  $cords = [41.30125 , -90.18899];
 
   $cambridge1_1 = new Listing;
   $cambridge1_1->add_item($address, '2', '2', 'Basement', '1', 'img/cambridge-1/unit-1/', $cords);
