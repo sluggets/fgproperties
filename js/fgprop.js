@@ -1,10 +1,11 @@
 $(document).ready(function() {
+  // enables dropdown "communities" menu in header
   $('.dropdown-toggle').dropdown();
 
+  // tries to catch coordinates passed through php 
+  // via script tag in details.php
   try
   {
-    /*var lat = document.getElementById('lat').textContent;
-    var lon = document.getElementById('lon').textContent;*/
     var fLat = parseFloat(lat);
     var fLon = parseFloat(lon);
   }
@@ -13,10 +14,9 @@ $(document).ready(function() {
     return;
   }
   
+  // this is the leaflet and mapbox api map building code
   if (lat)
   {
-    console.log(fLat + ' ' + fLon);
-    //var mymap = L.map('mapid').setView([fLat, fLon], 13);
     var mymap = L.map('mapid', {
       center: [fLat, fLon],
       zoom: 15
@@ -29,8 +29,11 @@ $(document).ready(function() {
     }).addTo(mymap);
   }
 
+  // not sure if I need this or not yet
+  // supposedly helps for screen resizing and/or mobile site?
   mymap.invalidateSize();
 
+  // adds the nice little marker for location on the map!
   var marker  = L.marker([fLat, fLon]).addTo(mymap);
 
 });
