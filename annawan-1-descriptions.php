@@ -1,4 +1,5 @@
-<?php
+<?php // annawan-1-descriptions.php 
+      // builds an Listing object for each unit at this property
   $address = '203 N State St, Annawan, IL 61234';
   $cords = [41.39962, -89.90909];
   $annawan1_1 = new Listing;
@@ -42,6 +43,8 @@
     Nulla venenatis ante placerat ligula vestibulum vehicula.
     Suspendisse vel lorem quis tortor elementum pulvinar.';
  
+  // builds array of Listing objecs to iterate over when 
+  // imported into details.php
   $listing_array = [$annawan1_1, $annawan1_2, $annawan1_3, $annawan1_4];
 
 

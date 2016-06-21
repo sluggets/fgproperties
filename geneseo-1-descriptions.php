@@ -1,4 +1,5 @@
-<?php
+<?php // geneseo-1-descriptions.php
+      // builds an Listing object for each unit at this property
   $cords = [41.44559, -90.15245];
 
   $geneseo1_1 = new Listing;
@@ -31,5 +32,7 @@
     Nulla venenatis ante placerat ligula vestibulum vehicula.
     Suspendisse vel lorem quis tortor elementum pulvinar.';
 
+  // builds array of Listing objecs to iterate over when 
+  // imported into details.php
   $listing_array = [$geneseo1_1, $geneseo1_2, $geneseo1_3];
 ?>

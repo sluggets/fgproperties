@@ -1,4 +1,5 @@
-<?php
+<?php // moline-1-descriptions.php
+      // builds an Listing object for each unit at this property
   $address = '2824 44th St, Moline, IL 61265';
   $cords = [41.48430, -90.47620];
 
@@ -43,6 +44,8 @@
     Nulla venenatis ante placerat ligula vestibulum vehicula.
     Suspendisse vel lorem quis tortor elementum pulvinar.';
 
+  // builds array of Listing objecs to iterate over when 
+  // imported into details.php
   $listing_array = [$moline1_1, $moline1_2, $moline1_3, $moline1_4];
 
 ?>

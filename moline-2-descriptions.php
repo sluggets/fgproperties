@@ -1,4 +1,6 @@
-<?php
+<?php // moline-2-descriptions.php
+      // builds an Listing object for each unit at this property
+
   $moline2_1 = new Listing;
   $moline2_1->add_item('116 18th Ave, Moline, IL 61265', '2', '1', 0, 0, '/img/moline-2/', [41.49493, -90.53687]);
   $moline2_1->description = 'This is the description for the single family 
@@ -10,5 +12,7 @@
     Suspendisse vel lorem quis tortor elementum pulvinar.';
 
 
+  // builds array of Listing objecs to iterate over when 
+  // imported into details.php
   $listing_array = [$moline2_1];
 ?>

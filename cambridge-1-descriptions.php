@@ -1,4 +1,5 @@
-<?php
+<?php // cambridge-1-descriptions.php
+      // builds an Listing object for each unit at this property
   $address = '308 E Court St, Cambridge, IL 61238';
   $cords = [41.30125 , -90.18899];
 
@@ -29,5 +30,7 @@
     Nulla venenatis ante placerat ligula vestibulum vehicula.
     Suspendisse vel lorem quis tortor elementum pulvinar.';
 
+  // builds array of Listing objecs to iterate over when 
+  // imported into details.php
   $listing_array = [$cambridge1_1, $cambridge1_2, $cambridge1_3];
 ?>
