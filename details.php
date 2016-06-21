@@ -1,20 +1,34 @@
-<?php include 'header.php'; ?>
+<?php // details.php
+      // displays details of properties selected on index.php
+  include 'header.php'; 
+?>
   <div id="clear-footer">
   <div class="container-fluid">
 <?php
-  //echo 'Hello ' . $_POST["property"];
+  // receives property selection from index
   $property = $_POST["property"];
 
+  // defines class for unit objects
   class Listing
   {
     var $address; 
     var $beds;
     var $baths;
+
+    // any extra misc. info point about unit
     var $extra;
+
     var $aptNumber;
+
+    // path to photos used for photo gallery
     var $photoPath;
+
     var $description;
+
+    // geographical coordinates of unit
     var $ords;
+
+    // method to add all the data to new object
     function add_item($add, $bed, $bath, $ex, $apt, $path, $ord)
     {
       $this->address = $add;
@@ -27,6 +41,8 @@
     }
   }
 
+  // includes appropriate file for property selection
+  // made on index.php
   include $property . '-descriptions.php';
 
   
@@ -37,15 +53,10 @@
     <script type="text/javascript">
       var lat = "<?php echo $lat ?>";
       var lon = "<?php echo $lon ?>";
-      console.log("lat " + lat + "lon " + lon);
     </script>
     <div id="row">
       <div class="col-md-6 col-md-offset-3">
         <div class="panel panel-default">
-          <!--<div class="panel-heading">-->
-              <!--<span id="lat" class="latlon">?php echo $lat; ?></span><span id="lon" class="latlon">?php echo $lon; ?></span>-->
-            <!--<h2 class="panel-title">Map Location</h2>
-          </div>-->
           <div class="panel-body">
             <div id="mapid">
             </div>
@@ -55,6 +66,7 @@
     </div>
 
 <?php
+  // loop through and builds detail box for each unit
   for ($i = 0; $i < $listing_len; $i++)
   {
     $address = $listing_array[$i]->address;
@@ -124,20 +136,11 @@
             </div>
             <p class="description"> <?php echo $description; ?> </p>
           </div>
-          <!--<div class="panel-footer">
-            <div id="mapid">
-              <h4>Map goes here</h4>
-            </div>
-          </div>-->
         </div>
       </div>
     </div>
 <?php
   }
 ?>
-          
-         
-  <!--</div>
-  </div>-->
 
 <?php include 'footer.php' ?>

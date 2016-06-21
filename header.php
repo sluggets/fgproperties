@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>First Generation Properties</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!--<link href="css/font-awesome.min.css" rel="stylesheet">-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
     <link href="css/fgprop.css" rel="stylesheet">
