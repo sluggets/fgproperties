@@ -25,18 +25,18 @@
           </a>
         </div>
         <ul class="nav nav-pills">
-          <li role="presentation"><h1>First Generation Properties</h1></li>
-          <li role="presentation"><a class="nav-margin" href="forms/rental-application.pdf" download="application.pdf">Rental Application</a></li>
+          <li role="presentation"><h1><a href="http://test.firstgenproperties.com">First Generation Properties</a></h1></li>
+          <li role="presentation"><a class="nav-margin" href="forms/rental-application.pdf" download="rental-application.pdf">Rental Application</a></li>
           <li role="presentation" class="dropdown">
             <a class="nav-margin dropdown-toggle" id="dLabel" data-target="#" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
               Communities<span class="caret"></span>
             </a>
             <ul class="dropdown-menu">
-              <li><a href="http://localhost:8000/#annawan">Annawan</a></li>
-              <li><a href="http://localhost:8000/#cambridge">Cambridge</a></li>
-              <li><a href="http://localhost:8000/#geneseo">Geneseo</a></li>
-              <li><a href="http://localhost:8000/#leclaire">LeClaire</a></li>
-              <li><a href="http://localhost:8000/#moline">Moline</a></li>
+              <li><a href="http://test.firstgenproperties.com/#annawan">Annawan</a></li>
+              <li><a href="http://test.firstgenproperties.com/#cambridge">Cambridge</a></li>
+              <li><a href="http://test.firstgenproperties.com/#geneseo">Geneseo</a></li>
+              <li><a href="http://test.firstgenproperties.com/#leclaire">LeClaire</a></li>
+              <li><a href="http://test.firstgenproperties.com/#moline">Moline</a></li>
             </ul>
           </li>
         </ul>

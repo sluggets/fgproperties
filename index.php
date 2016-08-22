@@ -16,7 +16,7 @@
               <div id="row">
                 <div class="col-md-4 col-md-offset-4">
                   <div class="thumbnail">
-                    <img src="img/ph01-2.jpg" class="img-responsive" alt="House at 203 N. State Street">
+                    <img src="img/annawan.jpg" class="img-responsive" alt="House at 203 N. State Street">
                     <div class="caption">
                       <h3>4 Plex<address> 203 N. State Street Annawan, IL</address></h3>
                       <p>Four units: one or two bedrooms with one bath. Click through for more details.</p>
@@ -39,7 +39,7 @@
               <div id="row">
                 <div class="col-md-4 col-md-offset-4">
                   <div class="thumbnail">
-                    <img src="img/ph02-2.jpg" class="img-responsive" alt="House at 555 S. Need Street">
+                    <img src="img/cambridge.jpg" class="img-responsive" alt="House at 555 S. Need Street">
                     <div class="caption">
                       <h3>3 Plex<address> 308 E. Court Street Cambridge, IL</address></h3>
                       <p>Three units: one, two or three bedrooms with one bath. Click through for more details.</p>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="col-md-4">
                   <div class="thumbnail">
-                    <img src="img/ph03-2.jpg" class="img-responsive" alt="House at 612 S. Spring Street">
+                    <img src="img/geneseo612.jpg" class="img-responsive" alt="House at 612 S. Spring Street">
                     <div class="caption">
                       <h3>3 Plex<address> 612-616 S. Spring Street Geneseo, IL</address></h3>
                       <p>Three units: two or three bedrooms with one bath. Click through for more details.</p>
@@ -80,7 +80,7 @@
                 </div>
                 <div class="col-md-4">
                   <div class="thumbnail">
-                    <img src="img/ph04-2.jpg" class="img-responsive" alt="House at 823 S. Spring Street">
+                    <img src="img/geneseo823.jpg" class="img-responsive" alt="House at 823 S. Spring Street">
                     <div class="caption">
                       <h3>Single Family<address> 823 S. Spring Street Geneseo, IL</address></h3>
                       <p>Single family home: two bedrooms and two baths. Click through for more details.</p>
@@ -105,7 +105,7 @@
               <div id="row">
                 <div class="col-md-4 col-md-offset-4">
                   <div class="thumbnail">
-                    <img src="img/ph05-2.jpg" class="img-responsive" alt="House at 1478 Kaylann Drive">
+                    <img src="img/leclaire.jpg" class="img-responsive" alt="House at 1478 Kaylann Drive">
                     <div class="caption">
                       <h3>Single Family<address> 1478 Kaylann Avenue LeClaire, IA</address></h3>
                       <p>Single family home: three to four bedrooms, and 1&#189 baths.</p>
@@ -128,10 +128,10 @@
               <div id="row">
                 <div class="col-md-4">
                   <div class="thumbnail">
-                    <img src="img/ph06-2.jpg" class="img-responsive" alt="Building at 2824 44th Street">
+                    <img src="img/moline2824.jpg" class="img-responsive" alt="Building at 2824 44th Street">
                     <div class="caption">
                       <h3>4 Plex<address> 2824 44th Street Moline, IL</address></h3>
-                      <p>Fourunits: one to four bedrooms with one bath. Click through for more details.</p>
+                      <p>Four units: one to four bedrooms with one bath. Click through for more details.</p>
                       <form action="details.php" method="post">
                        <input type="hidden" name="property" value="moline-1"/>
                        <input type="hidden"
@@ -144,7 +144,7 @@
                 </div>
                 <div class="col-md-4">
                   <div class="thumbnail">
-                    <img src="img/ph07-2.jpg" class="img-responsive" alt="House at 116 18th Avenue">
+                    <img src="img/moline116.jpg" class="img-responsive" alt="House at 116 18th Avenue">
                     <div class="caption">
                       <h3>Single Family<address> 116 18th Avenue Moline, IL</address></h3>
                       <p>Single family home: two bedrooms and one bath. Click through for more details.</p>
@@ -160,7 +160,7 @@
                 </div>
                 <div class="col-md-4">
                   <div class="thumbnail">
-                    <img src="img/ph08-2.jpg" class="img-responsive" alt="House at 123 18th Avenue">
+                    <img src="img/moline123.jpg" class="img-responsive" alt="House at 123 18th Avenue">
                     <div class="caption">
                       <h3>Single Family<address> 123 18th Avenue Moline, IL</address></h3>
                       <p>Single family home: three bedrooms and one bath. Click through for more details.</p>

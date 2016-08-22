@@ -102,35 +102,35 @@
           <div class="panel-body">
             <div class="row">
               <div class="col-xs-12 col-md-4">
-                <a href="img/placeholder/01w800.jpg" class="thumbnail" data-lightbox="slide">
-                  <img src="img/placeholder/th01.jpg"/>
+                <a href= <?php echo $path . 'fl01.jpg' ?> class="thumbnail" data-lightbox="slide">
+                  <img src= <?php echo $path . 'th01.jpg' ?>>
                 </a>
               </div>
               <div class="col-xs-12 col-md-4">
-                <a href="img/placeholder/02w800.jpg" class="thumbnail" data-lightbox="slide">
-                  <img src="img/placeholder/th02.jpg"/>
+                <a href= <?php echo $path . 'fl02.jpg' ?> class="thumbnail" data-lightbox="slide">
+                  <img src= <?php echo $path . 'th02.jpg' ?>>
                 </a>
               </div>
               <div class="col-xs-12 col-md-4">
-                <a href="img/placeholder/03w800.jpg" class="thumbnail" data-lightbox="slide">
-                  <img src="img/placeholder/th03.jpg"/>
+                <a href= <?php echo $path . 'fl03.jpg' ?> class="thumbnail" data-lightbox="slide">
+                  <img src= <?php echo $path. 'th03.jpg' ?>>
                 </a>
               </div>
             </div>
             <div class="row">
               <div class="col-xs-12 col-md-4">
-                <a href="img/placeholder/04w800.jpg" class="thumbnail" data-lightbox="slide">
-                  <img src="img/placeholder/th04.jpg"/>
+                <a href= <?php echo $path. 'fl04.jpg' ?> class="thumbnail" data-lightbox="slide">
+                  <img src= <?php echo $path. 'th04.jpg' ?>>
                 </a>
               </div>
               <div class="col-xs-12 col-md-4">
-                <a href="img/placeholder/05w800.jpg" class="thumbnail" data-lightbox="slide">
-                  <img src="img/placeholder/th05.jpg"/>
+                <a href= <?php echo $path. 'fl05.jpg' ?> class="thumbnail" data-lightbox="slide">
+                  <img src= <?php echo $path. 'th05.jpg' ?>>
                 </a>
               </div>
               <div class="col-xs-12 col-md-4">
-                <a href="img/placeholder/06w800.jpg" class="thumbnail" data-lightbox="slide">
-                  <img src="img/placeholder/th06.jpg"/>
+                <a href= <?php echo $path. 'fl06.jpg' ?> class="thumbnail" data-lightbox="slide">
+                  <img src= <?php echo $path. 'th06.jpg' ?>>
                 </a>
               </div>
             </div>
