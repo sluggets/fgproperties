@@ -25,7 +25,7 @@
           </a>
         </div>
         <ul class="nav nav-pills">
-          <li role="presentation"><h1><a href="http://test.firstgenproperties.com">First Generation Properties</a></h1></li>
+          <li role="presentation"><h1><a href="http://firstgenproperties.com">First Generation Properties</a></h1></li>
           <li role="presentation"><a class="nav-margin" href="forms/rental-application.pdf" download="rental-application.pdf">Rental Application</a></li>
           <li role="presentation" class="dropdown">
             <a class="nav-margin dropdown-toggle" id="dLabel" data-target="#" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
